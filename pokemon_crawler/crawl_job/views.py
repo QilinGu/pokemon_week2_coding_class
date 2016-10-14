@@ -39,7 +39,7 @@ def add_crawl_point(request):
         add_pokemon_to_db(pokemon["encounter_id"],
                           pokemon["expiration_timestamp_ms"],
                           pokemon["pokemon_id"],
-                          pokemon["longitude"],
-                          pokemon["latitude"])
+                          pokemon["latitude"],
+                          pokemon["longitude"])
 
     return HttpResponse("Result")
